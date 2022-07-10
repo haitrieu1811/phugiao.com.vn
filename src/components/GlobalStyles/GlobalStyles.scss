@@ -31,3 +31,22 @@ body {
     font-family: var(--font-family);
     color: var(--text-color);
 }
+
+input,
+select,
+button {
+    outline: none;
+    border: none;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
