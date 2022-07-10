@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        width: var(--web-width);
+        min-height: 80vh;
+
+        .sidebar {
+            width: 20%;
+            border-right: 1px solid #d8dbdb;
+        }
+
+        .content {
+            width: 80%;
+        }
+
+        .footer {
+            width: 100%;
+            border-top: 1px solid #d8dbdb;
+        }
+    }
+}

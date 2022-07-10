@@ -3,12 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
 
 :root {
-    // Colors
+    // Colors:
     --primary-color: #eb1d36;
     --text-color: #2c3639;
 
-    // Fonts
+    // Fonts:
     --font-family: 'Nunito Sans', sans-serif;
+
+    // Size:
+    --web-width: 1100px;
 }
 
 * {
