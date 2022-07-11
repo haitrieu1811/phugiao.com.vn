@@ -1,0 +1,9 @@
+.wrapper {
+    width: 25%;
+    padding: 20px 0;
+    position: sticky;
+    top: var(--header-height);
+    left: 0;
+    max-height: calc(100vh - var(--header-height));
+    overflow-y: overlay;
+}

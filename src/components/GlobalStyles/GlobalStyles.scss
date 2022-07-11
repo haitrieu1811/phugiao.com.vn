@@ -6,22 +6,47 @@
     // Colors:
     --primary-color: #eb1d36;
     --text-color: #2c3639;
+    --red-color: #eb1d36;
 
     // Fonts:
     --font-family: 'Nunito Sans', sans-serif;
 
     // Size:
-    --web-width: 1100px;
+    --web-width: 1150px;
+    --header-height: 60px;
+
+    // Space:
+    --header-padding-horizontal: 15px;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    &::selection {
+        background: var(--primary-color);
+        color: #fff;
+    }
 }
 
 html {
     font-size: 62.5%;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -30,6 +55,7 @@ body {
     text-rendering: optimizespeed;
     font-family: var(--font-family);
     color: var(--text-color);
+    overflow-y: overlay;
 }
 
 input,
